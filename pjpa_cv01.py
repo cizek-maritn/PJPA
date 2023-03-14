@@ -1,12 +1,10 @@
+# -*- coding: utf8 -*-
+
 def triangle(a, b, c):
-    
-    #Funkce vrací True nebo False, podle toho zda strany a, b, c mohou tvoøit
-    #pravoúhlý trojúhelník
-
-    #Pro jednoduchost mùžete pøedpokládat, že strany a, b jsou odvìsny, c je pøepona. 
-    #Tak jako je to ve známé matematické pouèce. 
-
-    if (c^2)==(a^2+b^2): 
+    #print(c**2)
+    #print(a**2)
+    #print(b**2)
+    if (c**2)==(a**2+b**2): 
         return True
     else: 
         return False
